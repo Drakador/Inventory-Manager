@@ -1,4 +1,4 @@
-package com.drakador.inventorymanager.inventorymanager;
+package com.drakador.inventorymanager;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
