@@ -1,6 +1,9 @@
 # inventory-manager
 
-Just a fun little intranet computer inventory manager I am making in my freetime
-to experiment with Spring Framework more.
+An inventory manager specific to computers currently. 
 
-I will put something more here later
+This is more of a self-research experiment with the goal of better understanding Spring Boot Framework
+and its construction in a small-scale monolithic application based on self-learning and
+learning via my current workplace. 
+
+No design in here is final.
