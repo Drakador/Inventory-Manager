@@ -1,6 +1,7 @@
 package jeh.drakador.inventorymanager.model.bo;
 
 import lombok.*;
+import org.hibernate.annotations.Where;
 
 import javax.persistence.*;
 import java.util.Date;
@@ -12,6 +13,8 @@ import java.util.Date;
 @Entity
 @Builder
 @Table(name="computers")
+@Data
+@Where(clause="is_owned=1")
 public class ComputerBo {
 
     @Id
@@ -38,10 +41,8 @@ public class ComputerBo {
     @Column(name="date_moved")
     private Date dateMoved;
 
-    private boolean deleted = Boolean.FALSE;
-
-    //TODO: the rest of the columns
-
-
+    /** Deleted flag or whether the system is still owned by the program user or not. */
+    @Column(name="is_owned")
+    private boolean deleted;
 
 }
