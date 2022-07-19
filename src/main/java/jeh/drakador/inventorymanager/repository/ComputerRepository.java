@@ -1,6 +1,6 @@
-package com.drakador.inventorymanager.repository;
+package jeh.drakador.inventorymanager.repository;
 
-import com.drakador.inventorymanager.model.dto.ComputerDto;
+import jeh.drakador.inventorymanager.model.dto.ComputerDto;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

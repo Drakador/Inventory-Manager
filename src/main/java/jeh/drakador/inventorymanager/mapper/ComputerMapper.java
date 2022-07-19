@@ -1,7 +1,7 @@
-package com.drakador.inventorymanager.mapper;
+package jeh.drakador.inventorymanager.mapper;
 
-import com.drakador.inventorymanager.model.bo.ComputerBo;
-import com.drakador.inventorymanager.model.dto.ComputerDto;
+import jeh.drakador.inventorymanager.model.bo.ComputerBo;
+import jeh.drakador.inventorymanager.model.dto.ComputerDto;
 import org.springframework.stereotype.Component;
 
 @Component

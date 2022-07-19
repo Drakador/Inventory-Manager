@@ -1,4 +1,4 @@
-package com.drakador.inventorymanager.mapper;
+package jeh.drakador.inventorymanager.mapper;
 
 public interface DtoBoMapper<T, U> {
 

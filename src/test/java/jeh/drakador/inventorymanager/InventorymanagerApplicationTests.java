@@ -1,10 +1,10 @@
-package com.drakador.inventorymanager.inventorymanager;
+package jeh.drakador.inventorymanager;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class InventoryManagerApplicationTests {
+class InventorymanagerApplicationTests {
 
 	@Test
 	void contextLoads() {

@@ -1,6 +1,6 @@
-package com.drakador.inventorymanager.service;
+package jeh.drakador.inventorymanager.service;
 
-import com.drakador.inventorymanager.repository.ComputerRepository;
+import jeh.drakador.inventorymanager.repository.ComputerRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 

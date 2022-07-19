@@ -1,4 +1,4 @@
-package com.drakador.inventorymanager.controller;
+package jeh.drakador.inventorymanager.controller;
 
 
 import org.springframework.web.bind.annotation.RequestMapping;

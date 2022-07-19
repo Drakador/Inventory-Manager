@@ -1,4 +1,4 @@
-package com.drakador.inventorymanager.model.bo;
+package jeh.drakador.inventorymanager.model.bo;
 
 import lombok.*;
 

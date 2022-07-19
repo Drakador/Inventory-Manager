@@ -1,4 +1,4 @@
-package com.drakador.inventorymanager.model.dto;
+package jeh.drakador.inventorymanager.model.dto;
 
 import lombok.Builder;
 import java.util.Date;
