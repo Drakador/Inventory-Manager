@@ -1,6 +1,5 @@
 package com.drakador.inventorymanager.mapper;
 
-import com.drakador.inventorymanager.controller.DtoBoMapper;
 import com.drakador.inventorymanager.model.bo.ComputerBo;
 import com.drakador.inventorymanager.model.dto.ComputerDto;
 import org.springframework.stereotype.Component;
@@ -9,7 +8,8 @@ import org.springframework.stereotype.Component;
 public class ComputerMapper implements DtoBoMapper<ComputerDto, ComputerBo> {
     @Override
     public ComputerDto toDto(ComputerBo localBo) {
-        return null;
+        return ComputerDto.builder()
+                .build();
     }
 
     @Override
